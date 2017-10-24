@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1508879273 source:c:\users\nicholas\documents\codeblocks projects\supermarketbilling\main.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+	<fstream>
+	<cstring>
+	<cstdio>
+	<cstdlib>
+	<iomanip>
+
