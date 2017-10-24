@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string.h>
 #include <cstdlib>
-
+#include <stdlib.h>
 using namespace std;
 
 static int p = 0;
@@ -350,7 +350,7 @@ while(1)
 
 {
 
-    //system("cls");
+    system("cls");
 
   cout<<"\n\n\n\n\n";
 
@@ -362,7 +362,9 @@ while(1)
 
   <<"4.Buses Available. \n\t\t\t"
 
-  <<"5.Exit";
+  <<"5.Endorsed by Info. \n\t\t\t"
+
+  <<"6.Exit";
 
   cout<<"\n\t\t\tEnter your choice:-> ";
 
@@ -388,7 +390,14 @@ while(1)
 
       break;
 
-    case 5:  exit(0);
+      case 5:
+          system("cls");
+          cout<<"Endorsed by Nicholas Ouellette";
+          _sleep(1000);
+
+      break;
+
+    case 6:  exit(0);
 
   }
 
