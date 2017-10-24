@@ -22,11 +22,16 @@ do{
         cout<<"\n\t\t    *********** HANGMAN IN C++ ***********\n\n";
 
         cout<<"(E) Enter a word\n\n(C) Computer chooses word\n\n(A)";
-        cout<<"Add new word to list\n\n(Q) Quit\n\n\nEnter your choice (E - C - Q): ";
+        cout<<"Add new word to list\n\n(R) Endorsed by Info \n\n(Q) Quit\n\n\nEnter your choice (E - C - A - R - Q): ";
         cin>>ch2;
        }while (ch2!='C' && ch2!='c' && ch2!='E' && ch2!= 'e' &&
-                ch2!='Q' && ch2!= 'q'&& ch2!='A' && ch2!= 'a');
+                ch2!='Q' && ch2!= 'q'&& ch2!='A' && ch2!= 'a'&& ch2!='R' && ch2!= 'r');
     if (ch2 == 'Q' || ch2=='q')  exit (0);
+
+    if(ch2!='R' || ch2!= 'r'){
+
+        cout<<"\nThis app is endorsed by Nicholas Ouellette.\n\n";
+    }
 
     if (ch2 == 'C' || ch2=='c')
 
